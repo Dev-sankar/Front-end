@@ -33,7 +33,7 @@ const LandscapeorderForm = () => {
     
 
   try {
-    const response = await axios.post('http://localhost:5000/api/users/orderLandScape',formData,
+    const response = await axios.post(`${process.env.REACT_APP_BACKEND}/api/users/orderLandScape`,formData,
      { headers: {
         "Content-Type": 'multipart/form-data'
       }
