@@ -36,14 +36,14 @@ function App() {
 
      
         <Route path="/" element={<Home/>}></Route>
-        <Route path="/admin" element={<AdminHome/>}></Route>
+        <Route path="/admin/*" element={<AdminHome/>}></Route>
         <Route path="/Service" element={<Service/>}></Route>
-        <Route path="/About" element={<About/>}></Route>
-        <Route path="/Projects" element={<Projects/>}></Route>
+        <Route path="/About/*" element={<About/>}></Route>
+        <Route path="/Projects/*" element={<Projects/>}></Route>
         <Route path="/Contact" element={<Contact/>}></Route>
-        <Route path="/login" element={<Login/>}></Route>
-        <Route path='/register' element={<Register/>}></Route>
-        <Route path='/GreenhouseForm' element={<GreenhouseForm/>}></Route>
+        <Route path="/login/*" element={<Login/>}></Route>
+        <Route path='/register/*' element={<Register/>}></Route>
+        <Route path='/GreenhouseForm/*' element={<GreenhouseForm/>}></Route>
         <Route path='/ServiceDetail/:name' element={<ServiceDetail/>}></Route>
         <Route path='/ServiceDetailscreatefrom' element={<ServiceDetailscreatefrom/>}></Route>
        <Route path='/Servicecreatefrom' element={<Servicecreatefrom/>}></Route>
