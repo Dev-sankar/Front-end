@@ -46,13 +46,13 @@ function AdminNavbar(){
 </button>
 <div className="collapse navbar-collapse" id="navbarCollapse">
     <div className="navbar-nav ms-auto p-4 p-lg-0">
-        <Link to="/Dashboard" className="nav-item nav-link active">Dashboard</Link>
-        <Link to="/Serivce" className="nav-item nav-link">Services</Link>
-        <Link to="/ServiceDetail" className="nav-item nav-link">Services deatils</Link>
-        <Link to="/Userdetails" className="nav-item nav-link">Users</Link>
+        <Link to="/admin/Dashboard" className="nav-item nav-link active">Dashboard</Link>
+        <Link to="/admin/Serivce" className="nav-item nav-link">Services</Link>
+        <Link to="/admin/ServiceDetail" className="nav-item nav-link">Services deatils</Link>
+        <Link to="/admin/Userdetails" className="nav-item nav-link">Users</Link>
         <div className="nav-item dropdown">
         </div>
-        <Link to="/OrderGreenhouse" className="nav-item nav-link">Orders</Link>
+        <Link to="/admin/OrderGreenhouse" className="nav-item nav-link">Orders</Link>
         {/* <Link to="http://localhost:3000/admin/OrderLandScape" className="nav-item nav-link">LandscapehouseOrders</Link> */}
 
         {userInfo? <Link to="/logout">  <button className=" button2" onClick={logout}> Logout <i className="bi bi-box-arrow-in-right"></i></button> </Link>
