@@ -12,7 +12,7 @@ import Modal from 'react-bootstrap/Modal';
 
 
 
-const ServiceDetail= ({ match }) => {
+const ServiceDetailss= ({ match }) => {
   const [ServiceDetails, setServiceDetails] = useState([]); // Initialize ServiceDetails as an empty array
   const [searchTerm, setSearchTerm] = useState('');
 
@@ -286,4 +286,4 @@ ServiceDetails._id.toLowerCase().includes(searchTerm.toLowerCase())
   )
 }
 
-export default ServiceDetail;
+export default ServiceDetailss;

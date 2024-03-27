@@ -48,7 +48,7 @@ function AdminNavbar(){
     <div className="navbar-nav ms-auto p-4 p-lg-0">
         <Link to="/admin/Dashboard" className="nav-item nav-link active">Dashboard</Link>
         <Link to="/admin/Serivce" className="nav-item nav-link">Services</Link>
-        <Link to="/admin/ServiceDetail" className="nav-item nav-link">Services deatils</Link>
+        <Link to="/admin/ServiceDetailss" className="nav-item nav-link">Services deatils</Link>
         <Link to="/admin/Userdetails" className="nav-item nav-link">Users</Link>
         <div className="nav-item dropdown">
         </div>
