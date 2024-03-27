@@ -44,6 +44,7 @@ function App() {
         <Route path="/login/*" element={<Login/>}></Route>
         <Route path='/register/*' element={<Register/>}></Route>
         <Route path='/GreenhouseForm/*' element={<GreenhouseForm/>}></Route>
+        <Route path='/ServiceDetail' element={<ServiceDetail/>}></Route>
         <Route path='/ServiceDetail/:name' element={<ServiceDetail/>}></Route>
         <Route path='/ServiceDetailscreatefrom' element={<ServiceDetailscreatefrom/>}></Route>
        <Route path='/Servicecreatefrom' element={<Servicecreatefrom/>}></Route>

@@ -45,9 +45,9 @@ function Navbar(){
 </button>
 <div className="collapse navbar-collapse" id="navbarCollapse">
     <div className="navbar-nav ms-auto p-4 p-lg-0">
-        <a href="/" className="nav-item nav-link active">Home</a>
-        <a href="/About" className="nav-item nav-link">About</a>
-        <a href="/service" className="nav-item nav-link">Services</a>
+        <Link to="/" className="nav-item nav-link active">Home</Link>
+        <Link  to="/About" className="nav-item nav-link">About</Link>
+        <Link to="/service" className="nav-item nav-link">Services</Link>
         {/* //<a href="/Projects" className="nav-item nav-link">Projects</a> */}
         <div className="nav-item dropdown">
             {/* <a href="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Order</a> */}
