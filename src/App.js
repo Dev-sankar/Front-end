@@ -10,6 +10,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './Pages/Home';
 import About from './Pages/About';
 import Service from './Pages/Serivce';
+import service from './Components/admin/Services'
 import Projects from './Pages/Projects'
 import AdminHome from './Components/admin/adminHome'
 import Login from './Components/Login/login'
@@ -20,6 +21,11 @@ import ServiceDetailscreatefrom from './Components/admin/servicedetailscreatefro
 import Servicecreatefrom from './Components/admin/servicescreatefrom';
 import LandscapeorderForm from './Components/OrderFrom/LandscapeorderFrom';
 import UserCreateForm from './Components/admin/UserCreate'
+
+import ServiceDetailss from './Components/admin/servicedetails';
+import Users from './Components/admin/UserDetails';
+import OrderGreenhouse from './Components/admin/ordergreehouse';
+import Dashboard from './Components/admin/adminDashboard';
 
 
 import Contact from './Pages/Contact';
@@ -38,6 +44,15 @@ function App() {
         <Route path="/" element={<Home/>}></Route>
         <Route path="/admin/*" element={<AdminHome/>}></Route>
         <Route path="/Service" element={<Service/>}></Route>
+
+        <Route path="/service" element={<Service/>}></Route>
+        <Route path="/ServiceDetailss" element={<ServiceDetailss/>}></Route>
+        <Route path="/Users" element={<Users/>}></Route>
+        <Route path="/OrderGreenhouse" element={<OrderGreenhouse/>}></Route>
+        <Route path="/Dashboard" element={<Dashboard/>}></Route>
+
+
+
         <Route path="/About/*" element={<About/>}></Route>
         <Route path="/Projects/*" element={<Projects/>}></Route>
         <Route path="/Contact" element={<Contact/>}></Route>
