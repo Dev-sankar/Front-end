@@ -24,7 +24,7 @@ function AdminHome(){
         <Route path="/ServiceDetail" element={<ServiceDetail/>}/>
         <Route path='/OrderGreenhouse' element={<OrderGreenhouse/>}></Route>
         <Route path='/OrderLandScape'  element={<OrderLandScape/>}></Route>
-        <Route path='/Dashboard' element={<Dashboard/>}></Route>
+       
       
 
 

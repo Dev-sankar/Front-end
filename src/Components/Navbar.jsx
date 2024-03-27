@@ -59,7 +59,7 @@ function Navbar(){
                 <a href="404.html" className="dropdown-item">404 Page</a>
             </div>
         </div>
-        <a href="/Contact" className="nav-item nav-link">Contact</a>
+        <Link to ="/Contact" className="nav-item nav-link">Contact</Link>
         <a href="" className="nav-item nav-link " > {userInfo? <Link to="/logout">  <a className="" style={{color:"green"}} onClick={logout}> {userInfo.name} </a> </Link>
          : <Link to="/login">   </Link>
         }</a>
