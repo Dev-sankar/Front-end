@@ -45,11 +45,11 @@ function App() {
         <Route path="/admin/*" element={<AdminHome/>}></Route>
         <Route path="/Service" element={<Service/>}></Route>
 
-        <Route path="/service" element={<Service/>}></Route>
-        <Route path="/ServiceDetailss" element={<ServiceDetailss/>}></Route>
-        <Route path="/Users" element={<Users/>}></Route>
-        <Route path="/OrderGreenhouse" element={<OrderGreenhouse/>}></Route>
-        <Route path="/Dashboard" element={<Dashboard/>}></Route>
+        <Route path="/admin/service" element={<Service/>}></Route>
+        <Route path="/admin/ServiceDetailss" element={<ServiceDetailss/>}></Route>
+        <Route path="/admin/Users" element={<Users/>}></Route>
+        <Route path="/admin/OrderGreenhouse" element={<OrderGreenhouse/>}></Route>
+        <Route path="/admin/Dashboard" element={<Dashboard/>}></Route>
 
 
 

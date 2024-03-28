@@ -49,9 +49,9 @@ function AdminNavbar(){
         <Link to="/admin/Dashboard" className="nav-item nav-link active">Dashboard</Link>
         <Link to="/admin/Serivce" className="nav-item nav-link">Services</Link>
         <Link to="/admin/ServiceDetailss" className="nav-item nav-link">Services deatils</Link>
-        <Link to="/admin/Userdetails" className="nav-item nav-link">Users</Link>
+        <Link to="/admin/Users" className="nav-item nav-link">Users</Link>
         <div className="nav-item dropdown">
-        </div>
+        </div>	
         <Link to="/admin/OrderGreenhouse" className="nav-item nav-link">Orders</Link>
         {/* <Link to="http://localhost:3000/admin/OrderLandScape" className="nav-item nav-link">LandscapehouseOrders</Link> */}
 
